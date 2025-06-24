@@ -27,7 +27,7 @@ if location and spot_type and sunlight:
         "sunlight": sunlight
     }
     try:
-        response = requests.get("http://localhost:8000/recommend", params=params)
+        response = requests.get(api_url, params=params)
         if response.status_code == 200:
             plants = response.json()
             if plants:
