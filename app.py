@@ -1,6 +1,8 @@
 import streamlit as st
 import requests
 import pandas as pd
+api_url = "plantpal-production.up.railway.app"
+
 st.set_page_config(page_title="PlantPal", page_icon="🌿")
 st.title("🌿 PlantPal")
 st.subheader("Grow your climate impact. One native plant at a time.")
