@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
-api_url = "plantpal-production.up.railway.app"
+api_url = "https://plantpal-production.up.railway.app/recommend"
 
 st.set_page_config(page_title="PlantPal", page_icon="🌿")
 st.title("🌿 PlantPal")
